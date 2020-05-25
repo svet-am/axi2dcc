@@ -1,0 +1,16 @@
+AXI2DCC Register Map Layout
+
+p.11 in PG090
+
+Transmit Buffer (the data to transmit on the rail)
+Transmit Buffer Fill Status Register (status on how full the Transmit buffer is)
+Receive Buffer (the data received from the rails)
+Receive Buffer Fill Status Register (status on how full the Receive buffer is)
+DCC Address (the address of the DCC device on the rails)
+Status (the status of transactions and the IP itself)
+Global Interrupt Enable (GIE, enable/disable interrupts from the IP)
+Interrupt Status Register (ISR, the decoding of the interrupt source)
+Interrupt Enable Register (IER, enable the different interrupt modes)
+IP Reset (reset the IP at-large or a subset)
+Control Register (enable/disable features/modes of the IP)
+Reserved Register (unused register reserved for future expansion)
